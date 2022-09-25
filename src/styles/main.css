@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-blue-850;
+}
+
+:focus {
+  @apply focus:outline-none focus:ring-offset-2 focus:ring focus:ring-blue-400;
+}
+
+.prose {
+  --tw-prose-bold: #afc2d4;
+  --tw-prose-headings: #afc2d4;
+  --tw-prose-links: #afc2d4;
+}
